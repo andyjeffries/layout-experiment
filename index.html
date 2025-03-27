@@ -1,24 +1,11 @@
 <html>
   <head>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-      <style>
-    .border-fill {
-      position: relative;
-    }
-
-    .border-fill::after {
-      content: "";
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      width: 1px;
-      background-color: #e2e8f0; /* Tailwind's border-gray-300 color */
-    }
-  </style>
   </head>
   <body>
+    <div class="absolute z-100 top-0 bottom-0 left-80 w-1 border-r border-red-200"></div>
     <div class="h-screen flex">
-      <div class="w-xs flex-shrink-0 relative border-fill">
+      <div class="w-xs flex-shrink-0 relative">
         <div class="px-4 fixed z-10 top-0 left-0 w-xs bg-gray-100 p-2 grid place-items-center">Logo</div>
         <div class="px-4 pt-20 pb-32 overflow-y-auto">
           <p>Hello</p>
@@ -48,8 +35,7 @@
           <p>Here</p>
         </div>
       </div>
-      <div class="border-r border-red-200 border-fill"></div>
-      <div class="px-4 space-y-4 overflow-y-auto border-fill">
+      <div class="px-4 space-y-4 overflow-y-auto">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean faucibus neque eros, non ullamcorper eros commodo vitae. Vestibulum vel metus iaculis risus ultrices iaculis rhoncus vel leo. Quisque consequat faucibus bibendum. Maecenas eu efficitur ex. Maecenas nulla ante, facilisis vitae metus non, tristique elementum est. Nullam sed odio feugiat, lobortis nibh sit amet, aliquam ligula. Etiam non finibus purus. Phasellus posuere mauris ut sem commodo, eget vulputate magna volutpat. Mauris vitae dapibus justo. Morbi ac consequat ipsum. Nunc tempus urna id massa convallis, non gravida velit cursus. Curabitur cursus sodales velit eu aliquam. Vestibulum ut maximus nulla. Duis in dui a dui venenatis consectetur sed non risus. Nam luctus scelerisque neque, in sollicitudin nisl commodo vitae. Quisque eu diam ex.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean faucibus neque eros, non ullamcorper eros commodo vitae. Vestibulum vel metus iaculis risus ultrices iaculis rhoncus vel leo. Quisque consequat faucibus bibendum. Maecenas eu efficitur ex. Maecenas nulla ante, facilisis vitae metus non, tristique elementum est. Nullam sed odio feugiat, lobortis nibh sit amet, aliquam ligula. Etiam non finibus purus. Phasellus posuere mauris ut sem commodo, eget vulputate magna volutpat. Mauris vitae dapibus justo. Morbi ac consequat ipsum. Nunc tempus urna id massa convallis, non gravida velit cursus. Curabitur cursus sodales velit eu aliquam. Vestibulum ut maximus nulla. Duis in dui a dui venenatis consectetur sed non risus. Nam luctus scelerisque neque, in sollicitudin nisl commodo vitae. Quisque eu diam ex.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean faucibus neque eros, non ullamcorper eros commodo vitae. Vestibulum vel metus iaculis risus ultrices iaculis rhoncus vel leo. Quisque consequat faucibus bibendum. Maecenas eu efficitur ex. Maecenas nulla ante, facilisis vitae metus non, tristique elementum est. Nullam sed odio feugiat, lobortis nibh sit amet, aliquam ligula. Etiam non finibus purus. Phasellus posuere mauris ut sem commodo, eget vulputate magna volutpat. Mauris vitae dapibus justo. Morbi ac consequat ipsum. Nunc tempus urna id massa convallis, non gravida velit cursus. Curabitur cursus sodales velit eu aliquam. Vestibulum ut maximus nulla. Duis in dui a dui venenatis consectetur sed non risus. Nam luctus scelerisque neque, in sollicitudin nisl commodo vitae. Quisque eu diam ex.</p>
